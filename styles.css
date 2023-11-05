@@ -1,0 +1,37 @@
+.custom-header {
+    font-family: 'Papyrus', sans-serif;
+    font-size: 75px;
+    color: #113317
+
+}
+
+.custom-paragraph {
+    font-family: 'Lucida Handwriting', sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    color: #3f2e18
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.relative{
+    position: relative;
+    left: 30px;
+    top: 0;
+    display: inline-block;
+}
+
+
+.message-container{
+    display: flex;
+    align-items: center;
+}
+
+.message-container + .message-container {
+    margin-top: 10px;
+}
